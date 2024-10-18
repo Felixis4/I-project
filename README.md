@@ -74,32 +74,32 @@ php artisan serve
 ## Json Instructions 
 
 In the Json Endpoint you can search by:
-'id',
-'title',
+'id',<br>
+'title',<br>
 
-'priceFrom': minimum price,
-'price': exact price,
-'priceTo': maximum price,
-'totalAreaFrom': minimum total area,
-'totalArea': exact total area,
-'totalAreaTo': maximum total area,
-'coveredAreaFrom': minimum covered area,
-'coveredArea': exact covered area,
-'coveredAreaTo': maximum covered area,
-'numberRoomsFrom': minimum number of rooms,
-'numberRooms': exact number of rooms,
-'numberRoomsTo': maximum number of rooms,
-'cityId': id of the city,
-'type': could be "House" or "Department",
+'priceFrom': minimum price,<br>
+'price': exact price,<br>
+'priceTo': maximum price,<br>
+'totalAreaFrom': minimum total area,<br>
+'totalArea': exact total area,<br>
+'totalAreaTo': maximum total area,<br>
+'coveredAreaFrom': minimum covered area,<br>
+'coveredArea': exact covered area,<br>
+'coveredAreaTo': maximum covered area,<br>
+'numberRoomsFrom': minimum number of rooms,<br>
+'numberRooms': exact number of rooms,<br>
+'numberRoomsTo': maximum number of rooms,<br>
+'cityId': id of the city,<br>
+'type': could be "House" or "Department",<br>
 
 the following filters are boolean, that means the value you can pass is only "true" or "false":
 
-'light': if it has light or not,
-'naturalGas': if it has natural gas or not,
-'phone': if it has phone or not,
-'water': if it has water or not,
-'sewers': if it has sewers or not,
-'internet': if it has internet or not,
-'asphalt': if it has asphalt or not,
+'light': if it has light or not,<br>
+'naturalGas': if it has natural gas or not,<br>
+'phone': if it has phone or not,<br>
+'water': if it has water or not,<br>
+'sewers': if it has sewers or not,<br>
+'internet': if it has internet or not,<br>
+'asphalt': if it has asphalt or not,<br>
 
 put one of this filters on the url like this "http://localhost:8000/json?title=abc123"
