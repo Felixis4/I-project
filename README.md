@@ -74,9 +74,9 @@ php artisan serve
 ## Json Instructions 
 
 In the Json Endpoint you can search by:<br>
+
 'id',<br>
 'title',<br>
-
 'priceFrom': minimum price,<br>
 'price': exact price,<br>
 'priceTo': maximum price,<br>
