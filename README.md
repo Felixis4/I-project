@@ -73,7 +73,7 @@ php artisan serve
 
 ## Json Instructions 
 
-In the Json Endpoint you can search by:
+In the Json Endpoint you can search by:<br>
 'id',<br>
 'title',<br>
 
