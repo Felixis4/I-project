@@ -6,54 +6,26 @@ Simple real state system in which you can Create, Read, Update and Delete difere
 - Artisan
 - Composer 2.2 or ^
 - mySQL 8.0
-- NPM Dependencies
-
-## install dependences on Ubuntu
-
-- PHP 8.1
-~~~
-sudo apt-get install php8.1
-~~~
-
-- composer 2.2 or ^
-(https://getcomposer.org)
-
-- Laravel 10x
-- Artisan
-~~~
-composer global require laravel/installer
-~~~
-
-- Mysql 8.0
-(https://dev.mysql.com/downloads/mysql/)
-
-
-
-## install dependences on Windows
-- PHP 8.1 
-(https://windows.php.net/download#php-8.1-ts-vs16-x64)
-
-- composer 2.2 or ^
-(https://getcomposer.org)
-
-- Laravel 10x
-- artisan 
-~~~
-composer global require laravel/installer
-~~~
-
-- Mysql 8.0
-(https://dev.mysql.com/downloads/mysql/)
 
 
 ## Download and migrate the repository
 open your terminal and run this command.
 
 ~~~
-git clone https://github.com/Felixis4/Inmobiliaria-project.git
+git clone https://github.com/Felixis4/I-project.git
+~~~
+
+Istall or update dependences
+~~~
+composer install
 ~~~
 
 configure your .env with your database
+
+run this command before migrate
+~~~
+php artisan key:generate
+~~~
 
 run this command for migrate
 ~~~

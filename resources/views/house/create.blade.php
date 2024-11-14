@@ -9,7 +9,6 @@ $showSidebar = true;
         <h2 class="mb-6 text-2xl font-bold text-gray-900">Add a New House</h2>
         <x-property-form
         :action="route('house.store')"
-        :isEdit="false"
         />
     </div>
 </div>
